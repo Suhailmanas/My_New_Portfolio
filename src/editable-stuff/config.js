@@ -47,11 +47,8 @@ const about = {
   imageWidth: 300,
   imageHeight: 280,
   message:
-    `I am Mohammed Suhail Manas, working in Energetics AI around 2 years with a Hands-on experience 
-    in software development. My expertise includes ReactJS, TypeScript, and JavaScript. 
-    I have experience building Progressive Web Applications (PWAs) and have also worked with 
-    playwright automation tools. In my free time I like working on open source projects.`,
-  resume: require("../editable-stuff/resume.pdf"),
+    `I am Mohammed Suhail Manas, a Software Developer with around 4 years of experience in software development. My technical expertise includes React.js, Next.js, TypeScript, and JavaScript. I have experience building Progressive Web Applications (PWAs), developing responsive user interfaces, integrating APIs, and automating browser workflows using Playwright with TypeScript. I am also expanding my knowledge of Node.js, backend development, and Artificial Intelligence, with a focus on building scalable, efficient, and intelligent web applications. In my free time, I enjoy exploring new technologies, learning through hands-on projects, and contributing to open-source initiatives.`,
+  resume: require("../editable-stuff/Suhail.pdf"),
 };
 
 // PROJECTS SECTION
@@ -131,10 +128,15 @@ const experiences = {
   heading: "Experience",
   data: [
     {
+      role: 'UI Developer',
+      companylogo: require('../assets/img/boeing.png'), //add energetics logo here
+      date: 'Jan 2026 – Current',
+    },
+    {
       role: 'Front-End Developer',
       companylogo: require('../assets/img/boeing.png'), //add energetics logo here
-      date: 'March 2023 – Current',
-    },
+      date: 'March 2023 – Nov 2025',
+    }
   ]
 }
 
