@@ -22,6 +22,8 @@ import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
+import Services from "./components/home/Services";
+import ResponsiveDemo from "./components/home/ResponsiveDemo";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -42,11 +44,11 @@ const Home = React.forwardRef((props, ref) => {
           resume={about.resume}
         />
       )}
-      {
-        experiences.show && (
-          <Experience experiences={experiences}/>
-        )
-      }
+      {/* Skills section hidden for now.
+      {skills.show && (
+        <Skills heading={skills.heading} hardSkills={skills.hardSkills} softSkills={skills.softSkills} />
+      )}
+      */}
       {repos.show && (
         <Project
           heading={repos.heading}
@@ -55,6 +57,9 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
+      <Services />
+      <ResponsiveDemo />
+      {experiences.show && <Experience experiences={experiences} />}
       {leadership.show && (
         <Leadership
           heading={leadership.heading}
@@ -63,14 +68,6 @@ const Home = React.forwardRef((props, ref) => {
           imageSize={leadership.imageSize}
         />
       )}
-      {skills.show && (
-        <Skills
-          heading={skills.heading}
-          hardSkills={skills.hardSkills}
-          softSkills={skills.softSkills}
-        />
-      )}
-      
     </>
   );
 });

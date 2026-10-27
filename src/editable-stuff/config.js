@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Mohammed",
   middleName: "Suhail",
   lastName: "Manas",
-  message: "Front-End Developer",
+  message: "Frontend Developer · React.js · Next.js · TypeScript",
   icons: [
     {
       image: "fa-github",
@@ -42,12 +42,12 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: "About Me",
+  heading: "Frontend Developer",
   imageLink: require("../assets/img/about.png"),
   imageWidth: 300,
   imageHeight: 280,
   message:
-    `I am Mohammed Suhail Manas, a Software Developer with around 4 years of experience in software development. My technical expertise includes React.js, Next.js, TypeScript, and JavaScript. I have experience building Progressive Web Applications (PWAs), developing responsive user interfaces, integrating APIs, and automating browser workflows using Playwright with TypeScript. I am also expanding my knowledge of Node.js, backend development, and Artificial Intelligence, with a focus on building scalable, efficient, and intelligent web applications. In my free time, I enjoy exploring new technologies, learning through hands-on projects, and contributing to open-source initiatives.`,
+    `I'm Mohammed Suhail Manas, a Frontend Developer with experience at Beroe and Energetics AI. I build responsive, reliable web experiences with React.js, Next.js, TypeScript, Redux Toolkit, and REST APIs, and use Playwright for browser testing.`,
   resume: require("../editable-stuff/Suhail.pdf"),
 };
 
@@ -96,7 +96,11 @@ const skills = {
     { name: "HTML", value: 90 },
     { name: "CSS", value: 70 },
     { name: "JavaScript", value: 80 },
-    { name: "ReactJs", value: 85 },
+    { name: "React.js", value: 85 },
+    { name: "Next.js", value: 75 },
+    { name: "Redux Toolkit", value: 70 },
+    { name: "REST APIs", value: 75 },
+    { name: "Playwright", value: 65 },
     { name: "Bootstrap", value: 60 },
     { name: "TypeScript", value: 50 },
     { name: "Tailwind", value: 20 },
@@ -117,9 +121,9 @@ const skills = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Discuss a Project",
   message:
-    "If you know of any positions available for Front-end developer, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "Need help with a React or Next.js fix? Tell me what you're working on and let's discuss the scope:",
   email: "manassuhail@gmail.com",
 };
 

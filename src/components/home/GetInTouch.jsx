@@ -7,6 +7,9 @@ const GetInTouch = ({ heading, message, email }) => {
       <p className="lead text-center pb-3">
         {message}, <a className="text-decoration-none" href={`mailto:${email}`}>{email}</a>.
       </p>
+      <div className="text-center pb-4">
+        <a className="btn btn-dark btn-lg" href={`mailto:${email}?subject=Discuss%20a%20Project`}>Discuss a Project</a>
+      </div>
     </>
   );
 };

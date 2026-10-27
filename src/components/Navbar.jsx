@@ -73,6 +73,9 @@ const Navigation = React.forwardRef((props, ref) => {
               Projects
             </NavLink>
           )}
+          <NavLink className="nav-item lead" href={"/#services"}>Services</NavLink>
+          <NavLink className="nav-item lead" href={"/#responsive-demo"}>Demo</NavLink>
+          <NavLink className="nav-item lead" href={"/#contact"}>Contact</NavLink>
           <NavLink
             className="nav-item lead"
             href={about.resume}
@@ -81,6 +84,7 @@ const Navigation = React.forwardRef((props, ref) => {
           >
             Resume
           </NavLink>
+          {/* Skills section is currently hidden.
           {skills.show && (
             <NavLink
               className="nav-item lead"
@@ -89,6 +93,7 @@ const Navigation = React.forwardRef((props, ref) => {
               Skills
             </NavLink>
           )}
+          */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
